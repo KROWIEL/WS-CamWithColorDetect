@@ -1,0 +1,17 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- main servlet -->
+  <servlet>
+    <servlet-name>gui</servlet-name>
+    <servlet-class>by.sadykov.servlets.MainServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>gui</servlet-name>
+    <url-pattern>/gui</url-pattern>
+  </servlet-mapping>
+</web-app>
